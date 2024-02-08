@@ -1,0 +1,62 @@
+/*------------
+    RESET
+------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+/*------------
+    LAYOUT
+------------*/
+
+header {
+    background-color: white;
+    min-height: 80px;
+    padding-left: 10px;
+    padding-right: 10px ;
+}
+
+.box-height{
+    height: 80px;
+}
+/*------------
+    UTILITY
+------------*/
+.container {
+    max-width: 1200px;
+}
+
+.box-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.box-header2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.box-header3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.d-f {
+    width: 110px;
+}
