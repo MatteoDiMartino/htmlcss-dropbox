@@ -44,6 +44,15 @@ header {
     width: 40%;
 }
 
+.col100 {
+    width: 100%;
+}
+
+.col100-modify {
+    margin-top: 40px;
+    padding: 100px 100px 100px  0px;
+}
+
 .row {
     display: flex;
     gap: 40px;
@@ -78,12 +87,6 @@ header {
     margin-right: 5px;
 }
 
-/* .card-1-low > i {
-    display: flex;
-}
-/*------------
-    UTILITY
-------------*/
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -110,6 +113,14 @@ header {
     background-color: white;
     z-index: 3;
 }
+
+
+/* .card-1-low > i {
+    display: flex;
+}
+/*------------
+    UTILITY
+------------*/
 
 .box-header2 {
     display: flex;
@@ -302,6 +313,12 @@ a {
     margin-bottom: 50px;
     font-size: 25px;
 }
+
+.col100 > h1 {
+    font-size: 50px;
+    padding-bottom: 60px;
+}
+
 
 /* @media screen and (max-width: 940px) {
     .hero {
