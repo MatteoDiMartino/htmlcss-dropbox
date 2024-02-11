@@ -63,6 +63,22 @@ header {
     margin-bottom: 40px;
 }
 
+.containerlogo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col33 .g1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.col33 .g2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .content-hero {
     position: relative;
     bottom: -80px;
@@ -207,9 +223,26 @@ a {
 .spacep {
     padding-top: 20px;
 }
+
+.all-logo {
+    display: flex;
+}
 /*------------
     ELEMENT
 ------------*/
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+}
+
+.g-box1 {
+    display: flex;
+}
+
+.g-box2 {
+    display: flex;
+}
 
 .textcontent {
     margin-top: 10px;
