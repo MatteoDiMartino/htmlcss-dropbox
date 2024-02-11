@@ -22,8 +22,6 @@ img {
 
 header {
     background-color: white;
-    min-height: 80px;
-
 }
 
 .box-height{
@@ -36,6 +34,19 @@ header {
 
 .col70 {
     width: 70%;
+}
+
+.col60 {
+    width: 60%;
+}
+
+.col40 {
+    width: 40%;
+}
+
+.row {
+    display: flex;
+    gap: 40px;
 }
 
 .col33 {
@@ -172,11 +183,30 @@ a {
 .spacelastbox {
     padding-bottom: 10px;
 }
+
+.sectionpicparagraph {
+    margin: 130px 0px;
+    display: flex;
+}
+
+.pcol {
+    padding: 40px 30px;
+}
+
+.spacep {
+    padding-top: 20px;
+}
 /*------------
     ELEMENT
 ------------*/
 
+.textcontent {
+    margin-top: 10px;
+}
 
+.textcontent > h3 {
+    margin-bottom: 17px;
+}
 
 .primary-button {
     background-color: transparent;
@@ -237,13 +267,19 @@ a {
     color: rgba(70, 70, 70, 0.692);
 }
 
-button:hover {
+.buttonblue:hover {
     background-color: #0050d2;
 }
 
 .bg-lightblue {
     background-color: #b4d0e7;
 }
+
+.buttong {
+    margin-top: 20px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
 
 .heading-h3-main {
     font-size: 30px;
@@ -262,7 +298,12 @@ button:hover {
     padding-top: 20px;
 }
 
-@media screen and (max-width: 940px) {
+.h-operations {
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+/* @media screen and (max-width: 940px) {
     .hero {
         padding-bottom: 120px;
         padding-left: 60px;
@@ -272,4 +313,4 @@ button:hover {
         width: 100%;
         gap: 40px;  
     }
-}
+} */
