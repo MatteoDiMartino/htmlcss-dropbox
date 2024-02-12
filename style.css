@@ -230,18 +230,131 @@ a {
 /*------------
     ELEMENT
 ------------*/
+.all-logo {
+    display: flex;
+}
+
+.cols {
+    width: calc(100vw / 3);
+    height: calc(100vw /3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 .box {
-    width: 100px;
-    height: 100px;
-    background-color: cadetblue;
+    width: 50%;
+    height: 50%;
+
 }
 
-.g-box1 {
-    display: flex;
+.des-logo {
+    width: 50%;
+    filter: invert(100%)
 }
 
-.g-box2 {
+
+.b1 {
+    background-color: #a2d39b;
+    border: 15px solid #d1e9cd;
+}
+
+.b1 > a {
     display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.b2 {
+    background-color: #61082b;
+    display: flex;
+    justify-content: center;
+}
+
+.b2 > a {
+    width: 50%;
+    filter: invert(100%)
+}
+
+.b2 > a {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+.b3 {
+    background-color: #0093ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b3 > a {
+    width: 50%;
+    filter: invert(100%)
+
+}
+
+.b4 {
+    background-color: #ff1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b4 > a {
+    width: 50%;
+    filter: invert(100%)
+}
+
+.b5 {
+    background-color: #d5001f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b5 > a {
+    width: 50%;
+    filter: invert(100%)
+}
+
+.b6 {
+    background-color: #b4d0e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b6 > a {
+    width: 50%;
+    filter: invert(100%)
+}
+
+.b7 {
+    background-color: #0d2481;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b7 > a {
+    width: 50%;
+    filter: invert(100%)
+}
+
+.b8 {
+    background-color: #ffd830;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b8 > a {
+    width: 50%;
+    filter: invert(100%)
 }
 
 .textcontent {
@@ -266,7 +379,14 @@ a {
 
 .first-list li {
     padding: 10px 0px;
+    display: flex;
+    gap: 8px;
 }
+
+.modify-first-li {
+    margin-bottom: 22px ;
+}
+
 
 .btn-list {
     margin-top: 30px;
@@ -286,11 +406,20 @@ a {
 
 .another-list > li {
     padding: 10px 0px;
+    display: flex;
+    gap: 8px;
 }
 
 .another-list  i {
     color: #0061ff;
 }
+
+.cols-color {
+    background-color: #f5f5f5;
+    padding: 40px;
+}
+
+
 
 /*------------
      TYPO
@@ -352,7 +481,29 @@ a {
     padding-bottom: 60px;
 }
 
+.line2 {
+    width: 20%;
+    height: 0;
+    border-bottom: 2px solid #d0d0d3;
+    padding:0px 0px 30px 0px;
+}
 
+.logo-medium {
+    width: 100%;
+}
+
+.logo-medium > img {
+    width: 50%;
+}
+
+.logo-medium > p {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.content-medium {
+    margin-top: -130px;
+}
 /* @media screen and (max-width: 940px) {
     .hero {
         padding-bottom: 120px;
