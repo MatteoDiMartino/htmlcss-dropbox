@@ -24,6 +24,16 @@ header {
     background-color: white;
 }
 
+.bgcolorlb {
+    background-color:#b4d0e7 ;
+}
+
+.row-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
 .box-height{
     height: 80px;
 }
@@ -490,6 +500,7 @@ a {
 
 .logo-medium {
     width: 100%;
+    overflow-y: auto;
 }
 
 .logo-medium > img {
@@ -499,10 +510,26 @@ a {
 .logo-medium > p {
     padding-top: 30px;
     padding-bottom: 20px;
+    overflow-y: auto;
 }
 
 .content-medium {
     margin-top: -130px;
+}
+
+.row-content > h1 {
+
+}
+
+.seisottouncielosbagliato {
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+.text-rc {
+    color: #61082b;
+    font-size: 22px
 }
 /* @media screen and (max-width: 940px) {
     .hero {
