@@ -41,6 +41,10 @@ header {
     height: 80px;
 }
 
+.col20 {
+    width: calc(100% / 5);
+}
+
 .col30 {
     width: 30%;
 }
@@ -59,6 +63,13 @@ header {
 
 .col100 {
     width: 100%;
+}
+
+.cols {
+    width: calc(100vw / 3);
+    height: calc(100vw /3);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .col100-modify {
@@ -121,10 +132,22 @@ header {
     margin: 0 auto;
 }
 
+.space-c-20 h2 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.space-c-20 {
+    display: flex;
+    gap: 30px;
+    min-height: 100px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
 .container-main {
     max-width: 1000px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 .add-f {
@@ -140,7 +163,23 @@ header {
     background-color: white;
 }
 
+footer {
+    background-color: black;
 
+}
+
+.sett-fcol {
+    color: white;
+    list-style: none;
+}
+
+.sett-fcol  a {
+    color: white;
+}
+
+.sett-fcol li {
+    margin-bottom: 20px;
+}
 /* .card-1-low > i {
     display: flex;
 }
@@ -171,10 +210,6 @@ a {
 .gap-modify {
     margin-right: 10px;
 }
-
-/* .hero {
-    
-} */
 
 .content-hero {
     display: flex;
@@ -240,16 +275,7 @@ a {
 /*------------
     ELEMENT
 ------------*/
-.all-logo {
-    display: flex;
-}
 
-.cols {
-    width: calc(100vw / 3);
-    height: calc(100vw /3);
-    display: flex;
-    flex-wrap: wrap;
-}
 
 
 .box {
@@ -291,8 +317,6 @@ a {
     justify-content: center;
     height: 100%;
 }
-
-
 
 .b3 {
     background-color: #0093ce;
@@ -406,6 +430,20 @@ a {
     margin-bottom: 30px;
 }
 
+.language {
+    padding-top: 50px;
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.line-deatil {
+    width: 60%;
+    border: 1px solid #919191;
+    margin-top: 100px;
+}
 .another-list {
     list-style: none;
     padding-top: 30px;
@@ -427,7 +465,7 @@ a {
 }
 
 .move-faq {
-    margin-bottom: 80px;
+    margin-bottom: 130px;
 }
 
 /*------------
