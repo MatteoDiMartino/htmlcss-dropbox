@@ -180,9 +180,7 @@ footer {
 .sett-fcol li {
     margin-bottom: 20px;
 }
-/* .card-1-low > i {
-    display: flex;
-}
+
 /*------------
     UTILITY
 ------------*/
@@ -191,6 +189,10 @@ footer {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.box-header2 a {
+    color: #808080;
 }
 
 .box-header3 {
@@ -276,7 +278,11 @@ a {
     ELEMENT
 ------------*/
 
-
+.hero-arrow i {
+    display: flex;
+    margin-top: 90px;
+    font-weight: bold;
+}
 
 .box {
     width: 50%;
